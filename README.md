@@ -1,13 +1,12 @@
 # vue-skip-to
-It helps people who only use the keyboard to jump to what matters most
+Vue Skip To is an accessibility tool built on the Vue JS framework. It assists the visually impaired with navigating to what matters most using their keyboards.
 
-The population grows very fast nowadays and with that the number of visually impaired increases as well. Did you know that we have over 350 million visually impaired people in the world?
+As our population increases, the number of individuals with accessibility needs is also growing. Did you know that there are over 350 million visually impaired people in the world today? 
 
-However, we are responsible for doing our utmost to make our applications usable and accessible to everyone.
+While accessibility techniques such as  “skip to content” and “skip to a section” are common, they are not as widely used as they should be. We are responsible doing our best to develop usable and accessible applications for everyone.
 
-"Skip to content" or "skip to a section" of your site is one of the most common accessibility techniques today, but not as used as it should be.
+This component was inspired by techniques recommended by WCAG 2.0.
 
-In addition to being a technique recommended by WCAG 2.0, that's where this component was inspired.
 https://www.w3.org/TR/WCAG20-TECHS/G1.html  
 https://www.w3.org/TR/WCAG20-TECHS/G124.html
 
@@ -106,7 +105,7 @@ You can style the link through the selector `.vue-skip-to`
 Inspired by this article, to know more, access the link:  
 http://www.nczonline.net/blog/2013/01/15/fixing-skip-to-content-links/
 
-- This component working in all modern browsers and IE9;
+- This component works in all modern browsers and IE9;
 - Ensures that the target element receives focus, even if it is not a tag that naturally receives focus as the tag `input` and `a`. In this case, the `div` are also given the focus and the `tabindex` attribute with the value of `-1`;
 - Add focus to the destination, even when the address bar already has the corresponding hash;
 
